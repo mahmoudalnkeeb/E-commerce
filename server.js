@@ -19,7 +19,6 @@ module.exports = { mongoose };
 // Middlewares
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-console.log(path.join(__dirname, './public'));
 app.use(express.static(path.join(__dirname, './public')));
 app.set('view engine', 'ejs');
 app.use(errHandler);

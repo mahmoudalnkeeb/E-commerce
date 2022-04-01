@@ -1,5 +1,5 @@
-const user = require('../../../models/user');
-const Bcrypt = require('../../../utils/bcrypt');
+const user = require('../../models/user');
+const Bcrypt = require('../../utils/bcrypt');
 const dotenv = require('dotenv');
 dotenv.config();
 const salt = process.env.SALT;
